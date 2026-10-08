@@ -1,4 +1,4 @@
-# ⚡ Synapse AI — Intelligent Web Intelligence & Summarization Engine
+# ⚡ AI Summarizer — Intelligent Web Intelligence & Summarization Engine
 
 [![Next.js](https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![Groq LPUs](https://img.shields.io/badge/Inference-Groq_LPU-f55036?style=for-the-badge&logo=fastapi)](https://groq.com/)
