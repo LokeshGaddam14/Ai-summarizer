@@ -5,7 +5,7 @@ export const maxDuration = 30;
 
 const MAX_CHARS = 12000; // keep the prompt small for the free tier
 const GROQ_URL = "https://api.groq.com/openai/v1/chat/completions";
-const MODEL = "llama-3.3-70b-versatile";
+const MODEL = process.env.GROQ_MODEL || "qwen/qwen3.8-27b";
 
 function json(body, status = 200) {
   return Response.json(body, { status });

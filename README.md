@@ -43,15 +43,3 @@ Request: `{ "url": "https://example.com" }`
 Response: `{ "title": "...", "url": "...", "summary": "..." }`
 Errors return `{ "error": "message" }` with a non-200 status.
 
-## Deploy (Vercel)
-
-1. Push this repo to GitHub.
-2. Import it at https://vercel.com/new.
-3. Under **Environment Variables**, add `GROQ_API_KEY`.
-4. Deploy, then paste the live URL at the top of this README.
-
-## Notes and limitations
-
-- Only static HTML is scraped; JavaScript-rendered sites and bot-protected pages may fail.
-- Page text is trimmed to ~12,000 characters before being sent to the AI.
-- Requests to localhost/private IP addresses are blocked.
